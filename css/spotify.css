@@ -586,6 +586,55 @@ header p {
         grid-area: player_right;
     }
 
+    .home:hover,
+    .cerca:hover,
+    .la_tua_libreria:hover {
+        border-left: 5px solid greenyellow;
+        border-radius: 3%;
+        cursor: pointer;
+    }
 
+    nav ul li:hover {
+        border-bottom: 5px solid greenyellow;
+        border-radius: 3%;
+        opacity: 100%;
+    }
     
+    .playlist_spec > p:hover {
+        text-shadow: 0px 0px 10px rgb(255, 255, 255);
+        opacity: 90%;
+        cursor: pointer;
+    }
+
+    .right_icons:hover {
+        box-shadow: 0px 0px 19px 5px rgba(255, 255, 255, 0.18);
+        cursor: pointer;
+    }
+
+    .upgrade button:hover {
+        box-shadow: 0px 0px 4px 5px rgba(255,255,255,0.54);
+        cursor: pointer;
+    }
+
+    .icon_middle:hover {
+        transform: scale(1.5);
+        cursor: pointer;
+    }
+
+    .play:hover {
+        transform: scale(2.5);
+    }
+
+    .playlist_icon:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    .folder_icon:hover,
+    .heart_icon:hover {
+        opacity: initial;
+        box-shadow: 0px 0px 19px 5px rgba(255, 255, 255, 0.18);
+        cursor: pointer;
+    }
+
 }
